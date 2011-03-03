@@ -16,6 +16,8 @@
 		D9FACBD9131F152E0066E0FA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FACBD7131F152E0066E0FA /* MainWindow.xib */; };
 		D9FACBDC131F152E0066E0FA /* CalendarSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FACBDB131F152E0066E0FA /* CalendarSampleViewController.m */; };
 		D9FACBDF131F152E0066E0FA /* CalendarSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FACBDD131F152E0066E0FA /* CalendarSampleViewController.xib */; };
+		D9FACBF0131F1CB40066E0FA /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FACBEE131F1CB30066E0FA /* EventKit.framework */; };
+		D9FACBF1131F1CB40066E0FA /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FACBEF131F1CB30066E0FA /* EventKitUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,18 @@
 		D9FACBC5131F152E0066E0FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9FACBC7131F152E0066E0FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9FACBC9131F152E0066E0FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D9FACBCD131F152E0066E0FA /* CalendarSample-Info.plist */ = {isa = PBXFileReference; path = "CalendarSample-Info.plist"; sourceTree = "<group>"; };
+		D9FACBCD131F152E0066E0FA /* CalendarSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalendarSample-Info.plist"; sourceTree = "<group>"; };
 		D9FACBCF131F152E0066E0FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D9FACBD1131F152E0066E0FA /* CalendarSample-Prefix.pch */ = {isa = PBXFileReference; path = "CalendarSample-Prefix.pch"; sourceTree = "<group>"; };
+		D9FACBD1131F152E0066E0FA /* CalendarSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalendarSample-Prefix.pch"; sourceTree = "<group>"; };
 		D9FACBD2131F152E0066E0FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D9FACBD4131F152E0066E0FA /* CalendarSampleAppDelegate.h */ = {isa = PBXFileReference; path = CalendarSampleAppDelegate.h; sourceTree = "<group>"; };
+		D9FACBD4131F152E0066E0FA /* CalendarSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarSampleAppDelegate.h; sourceTree = "<group>"; };
 		D9FACBD5131F152E0066E0FA /* CalendarSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarSampleAppDelegate.m; sourceTree = "<group>"; };
 		D9FACBD8131F152E0066E0FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		D9FACBDA131F152E0066E0FA /* CalendarSampleViewController.h */ = {isa = PBXFileReference; path = CalendarSampleViewController.h; sourceTree = "<group>"; };
+		D9FACBDA131F152E0066E0FA /* CalendarSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarSampleViewController.h; sourceTree = "<group>"; };
 		D9FACBDB131F152E0066E0FA /* CalendarSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarSampleViewController.m; sourceTree = "<group>"; };
 		D9FACBDE131F152E0066E0FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CalendarSampleViewController.xib; sourceTree = "<group>"; };
+		D9FACBEE131F1CB30066E0FA /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		D9FACBEF131F1CB30066E0FA /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9FACBF0131F1CB40066E0FA /* EventKit.framework in Frameworks */,
+				D9FACBF1131F1CB40066E0FA /* EventKitUI.framework in Frameworks */,
 				D9FACBC6131F152E0066E0FA /* UIKit.framework in Frameworks */,
 				D9FACBC8131F152E0066E0FA /* Foundation.framework in Frameworks */,
 				D9FACBCA131F152E0066E0FA /* CoreGraphics.framework in Frameworks */,
@@ -72,6 +78,8 @@
 				D9FACBC5131F152E0066E0FA /* UIKit.framework */,
 				D9FACBC7131F152E0066E0FA /* Foundation.framework */,
 				D9FACBC9131F152E0066E0FA /* CoreGraphics.framework */,
+				D9FACBEE131F1CB30066E0FA /* EventKit.framework */,
+				D9FACBEF131F1CB30066E0FA /* EventKitUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

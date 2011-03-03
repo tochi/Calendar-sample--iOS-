@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EventKit/EventKit.h>
+#import <EventKitUI/EventKitUI.h>
 
-@interface CalendarSampleViewController : UIViewController {
-    
+@interface CalendarSampleViewController : UIViewController <EKEventEditViewDelegate>
+{
+  EKEventStore *eventStore;
 }
+@property (nonatomic, retain) EKEventStore *eventStore;
+
+- (IBAction)openCalendar:(id)sender;
 
 @end
